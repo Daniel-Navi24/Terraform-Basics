@@ -10,7 +10,7 @@ terraform {
 provider "docker" {}
 
 resource "docker_image" "class_api" {
-  name         = "bubbaj/it4200-fall-2026:2.28.0"
+  name         = "bubbaj/class-api-it4200-2024-fall:1.9.0"
   keep_locally = false
 }
 
