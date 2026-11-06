@@ -56,9 +56,8 @@ Go to `localhost:8000` to validate that terraform apply worked.
 
 
 ### 4. Update it
-Utilize the resources on [the terraform provider registry docs](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs) to rewrite the above terraform to use one of our class api docker images from [dockerhub](https://hub.docker.com/r/bubbaj/class-api-it4200-2024-fall/tags)
+Utilize the resources on [the terraform provider registry docs](https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs) to rewrite the above terraform to use one of our class api docker images from dockerhub
 
-For example you might use the `bubbaj/class-api-it4200-2024-fall:1.9.0` image instead of `nginx`.
 
 - Run `terraform validate` to check for syntax errors.
 - Run `terraform plan` to see the execution plan.
